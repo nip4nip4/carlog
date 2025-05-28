@@ -34,11 +34,12 @@ function App() {
   if (!user) {
     return React.createElement(Login);
   }
-  return React.createElement(
-    "div",
-    null,
-    \`Hello \${user.displayName}! CarLog יהיה פה בקרוב…\`
-  );
+return React.createElement(
+  "div",
+  null,
+  "Hello " + user.displayName + "! CarLog will be here soon..."
+);
+
 }
 
 // 4. רנדר
